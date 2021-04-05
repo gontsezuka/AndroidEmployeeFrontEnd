@@ -2,13 +2,15 @@
 
 ## This is an android application written in java. 
 
+## Demonstrates the commection to different TECH STACKS
+
 ## This project is written using the MVVM architecture and utilizes Retrofit to make HTTP calls to the backend
 
-## This project communicates with the corresponding SPRING BOOT backend through REST API.
+## This project communicates with the SPRING BOOT backend through REST API.
 
-## link to the backend part of this application - https://github.com/gontsezuka/EmployeesBackend
+## Link to the backend part of this application - https://github.com/gontsezuka/EmployeesBackend
 
-## The project has a second FrontEnd written in ANGULAR and the ANGULAR frontend also communicates with the same SPRING BOOT application.
+## The project has a second FrontEnd written in ANGULAR which also communicates with the same SPRING BOOT backend  application.
 
 ## link to the second ANGULAR FRONTEND of EMPLOYEE MANAGER - https://github.com/gontsezuka/AngularEmployeeFrontend
 
