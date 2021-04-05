@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/item_layout"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+
+        android:elevation="100dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/employee_name"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:id="@+id/employee_email"
+                android:text="Email"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/employee_jobTitle"
+                android:text="JobTitle"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/employee_phone"
+                android:text="Phone"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:src="@drawable/ic_arror"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="22dp"
+    tools:context=".employeeProcessing.EditEmployee">
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:text="EDIT EMPLOYEE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <EditText
+        android:id="@+id/edit_employee_edt_name"
+        android:layout_marginTop="60dp"
+        android:hint="Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nextFocusDown="@+id/edit_employee_edt_email"
+        android:singleLine="true"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/edit_employee_edt_email"
+        android:layout_marginTop="25dp"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nextFocusDown="@+id/edit_employee_edt_email"
+        android:singleLine="true"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/edit_employee_edt_phone"
+        android:layout_marginTop="25dp"
+        android:hint="Phone Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nextFocusDown="@+id/edit_employee_edt_job_title"
+        android:singleLine="true"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/edit_employee_edt_job_title"
+        android:layout_marginTop="25dp"
+        android:hint="Job Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nextFocusDown="@+id/edit_employee_edt_url"
+        android:singleLine="true"
+        >
+    </EditText>
+    <EditText
+        android:hint="URL"
+        android:id="@+id/edit_employee_edt_url"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/edit_employee_btn_complete"
+        android:layout_marginTop="20dp"
+        android:text="Add Employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+</LinearLayout>
