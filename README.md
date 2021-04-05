@@ -8,6 +8,10 @@
 
 ## link to the backend part of this application - https://github.com/gontsezuka/EmployeesBackend
 
+## The project has a second FrontEnd written in ANGULAR and the ANGULAR frontend also communicates with the same SPRING BOOT application.
+
+## link to the second ANGULAR FRONTEND of EMPLOYEE MANAGER - https://github.com/gontsezuka/AngularEmployeeFrontend
+
 ![](images/1-Android.jpg "Login Android Employee Manager")
 ![](images/2-Android.jpg "Login Android Employee Manager")
 ![](images/3-Android.jpg "Login Android Employee Manager")
