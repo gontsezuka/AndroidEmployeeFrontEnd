@@ -9,6 +9,11 @@
 ## link to the backend part of this application - https://github.com/gontsezuka/EmployeesBackend
 
 ![](images/1-Android.jpg "Login Android Employee Manager")
+![](images/2-Android.jpg "Login Android Employee Manager")
+![](images/3-Android.jpg "Login Android Employee Manager")
+![](images/4-Android.jpg "Login Android Employee Manager")
+![](images/5-Android.jpg "Login Android Employee Manager")
+![](images/6-Android.jpg "Login Android Employee Manager")
 
 
 
