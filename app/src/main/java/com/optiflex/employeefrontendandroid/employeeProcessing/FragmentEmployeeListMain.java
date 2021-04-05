@@ -54,9 +54,9 @@ public class FragmentEmployeeListMain  extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-//        getActivity().getActionBar().setTitle("Employee List");
-//        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#FFFFFF"));
-//        getActivity().getActionBar().setBackgroundDrawable(colorDrawable);
+//           getActivity().getActionBar().setTitle("Employee List");
+//          ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#FFFFFF"));
+//          getActivity().getActionBar().setBackgroundDrawable(colorDrawable);
 
         employeeViewModel = ViewModelProviders.of(getActivity()).get(EmployeeViewModel.class);
         floatingActionButton = view.findViewById(R.id.employee_list_main_btn_floating);

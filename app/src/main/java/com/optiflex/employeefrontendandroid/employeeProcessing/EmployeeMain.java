@@ -9,6 +9,8 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.view.Gravity;
@@ -33,6 +35,8 @@ public class EmployeeMain extends AppCompatActivity implements NavigationView.On
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         ActionBar ac = getSupportActionBar();
         ac.setTitle("");
+        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#000000"));
+        ac.setBackgroundDrawable(colorDrawable);
 
 
         drawerLayout = findViewById(R.id.the_drawer);

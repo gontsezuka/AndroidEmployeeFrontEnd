@@ -83,6 +83,16 @@
             android:layout_height="wrap_content">
 
         </Button>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="Register"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
     </LinearLayout>
 
 
